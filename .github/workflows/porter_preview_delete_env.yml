@@ -13,7 +13,7 @@ jobs:
       with:
         cluster: "34"
         host: https://dashboard.dev.getporter.dev
-        installation_id: "22158312"
+        installation_id: "21704327"
         namespace: pr-${{ github.event.pull_request.number }}-porter-docs
         project: "3"
         repo_name: porter-docs
