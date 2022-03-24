@@ -15,7 +15,7 @@ jobs:
         branch: ${{ github.head_ref }}
         cluster: "34"
         host: https://dashboard.dev.getporter.dev
-        installation_id: "22158312"
+        installation_id: "21704327"
         namespace: pr-${{ github.event.pull_request.number }}-porter-docs
         pr_id: ${{ github.event.pull_request.number }}
         pr_name: ${{ github.event.pull_request.title }}
